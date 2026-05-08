@@ -45,14 +45,14 @@ export default function VideoSection() {
               <div className="absolute inset-0 bg-black flex items-center justify-center">
                 <video 
                   className="w-full h-full object-cover" 
-                  src="/launch-video.mp4" 
+                  src="/leaddesk-demo.mp4" 
                   controls 
                   autoPlay 
                   playsInline 
                   onError={(e) => {
                     const target = e.target as HTMLVideoElement;
                     // Fallback poster if the video file isn't uploaded yet
-                    target.poster = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='black'/%3E%3Ctext x='50%25' y='50%25' font-family='sans-serif' font-size='20' fill='%23555' text-anchor='middle' dominant-baseline='middle'%3EPlease upload your video to public/launch-video.mp4%3C/text%3E%3C/svg%3E";
+                    target.poster = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='black'/%3E%3Ctext x='50%25' y='50%25' font-family='sans-serif' font-size='20' fill='%23555' text-anchor='middle' dominant-baseline='middle'%3EVideo file not found. Ensure it is named leaddesk-demo.mp4 in public folder%3C/text%3E%3C/svg%3E";
                   }}
                 />
                 <button 
