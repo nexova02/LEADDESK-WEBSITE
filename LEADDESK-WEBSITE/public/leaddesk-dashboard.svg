@@ -1,0 +1,40 @@
+<svg width="840" height="720" viewBox="0 0 840 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LeadDesk grayscale lead generation dashboard">
+  <rect width="840" height="720" rx="32" fill="#ffffff"/>
+  <rect x="24" y="24" width="792" height="672" rx="28" fill="#f5f5f5" stroke="#d1d1d1"/>
+  <rect x="48" y="48" width="744" height="72" rx="20" fill="#000000"/>
+  <circle cx="88" cy="84" r="16" fill="#ffffff"/>
+  <rect x="122" y="74" width="132" height="20" rx="10" fill="#ffffff"/>
+  <rect x="548" y="70" width="84" height="28" rx="14" fill="#808080"/>
+  <rect x="648" y="70" width="108" height="28" rx="14" fill="#ffffff"/>
+  <rect x="48" y="144" width="176" height="504" rx="24" fill="#0f0f0f"/>
+  <rect x="72" y="176" width="108" height="16" rx="8" fill="#ffffff"/>
+  <rect x="72" y="222" width="116" height="12" rx="6" fill="#999999"/>
+  <rect x="72" y="260" width="96" height="12" rx="6" fill="#999999"/>
+  <rect x="72" y="298" width="126" height="12" rx="6" fill="#999999"/>
+  <rect x="72" y="336" width="86" height="12" rx="6" fill="#999999"/>
+  <rect x="72" y="558" width="128" height="54" rx="18" fill="#ffffff"/>
+  <rect x="248" y="144" width="544" height="148" rx="24" fill="#ffffff" stroke="#d1d1d1"/>
+  <rect x="280" y="176" width="166" height="18" rx="9" fill="#000000"/>
+  <rect x="280" y="210" width="78" height="44" rx="16" fill="#000000"/>
+  <rect x="378" y="210" width="78" height="44" rx="16" fill="#333333"/>
+  <rect x="476" y="210" width="78" height="44" rx="16" fill="#808080"/>
+  <rect x="574" y="210" width="78" height="44" rx="16" fill="#d1d1d1"/>
+  <path d="M686 250c8-42 22-58 42-58 18 0 30 26 36 58" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <rect x="248" y="316" width="260" height="332" rx="24" fill="#ffffff" stroke="#d1d1d1"/>
+  <rect x="280" y="348" width="126" height="18" rx="9" fill="#000000"/>
+  <rect x="280" y="394" width="196" height="48" rx="16" fill="#f5f5f5" stroke="#d1d1d1"/>
+  <rect x="304" y="412" width="76" height="12" rx="6" fill="#000000"/>
+  <rect x="400" y="412" width="46" height="12" rx="6" fill="#808080"/>
+  <rect x="280" y="462" width="196" height="48" rx="16" fill="#f5f5f5" stroke="#d1d1d1"/>
+  <rect x="304" y="480" width="92" height="12" rx="6" fill="#000000"/>
+  <rect x="416" y="480" width="32" height="12" rx="6" fill="#808080"/>
+  <rect x="280" y="530" width="196" height="48" rx="16" fill="#f5f5f5" stroke="#d1d1d1"/>
+  <rect x="304" y="548" width="72" height="12" rx="6" fill="#000000"/>
+  <rect x="396" y="548" width="54" height="12" rx="6" fill="#808080"/>
+  <rect x="532" y="316" width="260" height="332" rx="24" fill="#0f0f0f"/>
+  <rect x="564" y="348" width="126" height="18" rx="9" fill="#ffffff"/>
+  <path d="M570 570V482M622 570V430M674 570V454M726 570V390" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+  <path d="M570 570H742" stroke="#808080" stroke-width="4" stroke-linecap="round"/>
+  <rect x="564" y="396" width="80" height="12" rx="6" fill="#808080"/>
+  <rect x="564" y="612" width="164" height="12" rx="6" fill="#d1d1d1"/>
+</svg>
