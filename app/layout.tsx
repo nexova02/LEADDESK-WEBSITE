@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { seoConfig, siteUrl } from "@/lib/seo";
 import FloatingDock from "@/components/FloatingDock";
+import SmoothScroll from "@/components/SmoothScroll";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -82,22 +83,36 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="wope-exact-background">
-          <div className="wope-glow-orb" />
-          
-          <div className="wope-grid-top" />
-          <div className="wope-grid-top-mask">
-            <div className="wope-top-glow" />
-          </div>
+        <SmoothScroll>
+          <div className="wope-exact-background">
+            <div 
+              style={{
+                position: 'absolute',
+                top: '40%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                width: '2000px',
+                height: '2000px',
+                background: 'radial-gradient(circle at center, rgba(255, 255, 255, 0.08), transparent 70%)',
+                zIndex: -1,
+                pointerEvents: 'none',
+              }}
+            />
+            
+            <div className="wope-grid-top" />
+            <div className="wope-grid-top-mask">
+              <div className="wope-top-glow" />
+            </div>
 
-          <div className="wope-grid-bottom" />
-          <div className="wope-grid-bottom-mask">
-            <div className="wope-bottom-ray" />
-            <div className="wope-bottom-line" />
+            <div className="wope-grid-bottom" />
+            <div className="wope-grid-bottom-mask">
+              <div className="wope-bottom-ray" />
+              <div className="wope-bottom-line" />
+            </div>
           </div>
-        </div>
-        {children}
-        <FloatingDock />
+          {children}
+          <FloatingDock />
+        </SmoothScroll>
       </body>
     </html>
   );

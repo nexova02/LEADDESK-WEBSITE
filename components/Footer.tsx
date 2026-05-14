@@ -28,7 +28,7 @@ export default function Footer() {
             <a href="https://www.youtube.com/" aria-label="LeadDesk on YouTube" className="grid h-10 w-10 place-items-center rounded-full border border-ink-800 transition hover:bg-ink-50 hover:text-ink-1000">
               <Youtube size={18} aria-hidden="true" />
             </a>
-            <a href="mailto:hello@leaddesk.example.com" aria-label="Email LeadDesk" className="grid h-10 w-10 place-items-center rounded-full border border-ink-800 transition hover:bg-ink-50 hover:text-ink-1000">
+            <a href="mailto:nexova02@gmail.com" aria-label="Email LeadDesk" className="grid h-10 w-10 place-items-center rounded-full border border-ink-800 transition hover:bg-ink-50 hover:text-ink-1000">
               <Mail size={18} aria-hidden="true" />
             </a>
           </div>

@@ -25,7 +25,7 @@ export function DockItem({ children, className = "", onClick, href, mouseX, spri
       onFocus={() => isHovered.set(1)}
       onBlur={() => isHovered.set(0)}
       onClick={onClick}
-      className={`dock-item ${className}`}
+      className={`dock-item shrink-0 ${className}`}
       tabIndex={0}
       role="button"
     >
@@ -33,7 +33,7 @@ export function DockItem({ children, className = "", onClick, href, mouseX, spri
     </motion.div>
   );
 
-  if (href) return <Link href={href} className="flex">{content}</Link>;
+  if (href) return <Link href={href} className="flex items-end shrink-0">{content}</Link>;
   return content;
 }
 

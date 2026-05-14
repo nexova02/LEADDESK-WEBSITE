@@ -27,7 +27,11 @@ export default function IntegrationsSection() {
         </Reveal>
         <div className="mt-14 grid grid-cols-2 gap-4 md:grid-cols-5">
           {integrations.map((integration, index) => (
-            <Reveal key={integration} delay={index * 0.04}>
+            <Reveal 
+              key={integration} 
+              delay={index * 0.04}
+              className={index >= 6 ? "hidden md:block" : ""}
+            >
               <div className="grid h-24 place-items-center rounded-2xl border border-ink-300 bg-ink-50 px-4 text-center text-lg font-bold text-ink-1000 shadow-soft transition duration-300 hover:-translate-y-1 hover:border-ink-800 hover:shadow-medium">
                 {integration}
               </div>

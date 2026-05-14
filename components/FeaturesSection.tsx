@@ -55,7 +55,11 @@ export default function FeaturesSection() {
         </Reveal>
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {features.map(({ title, points, Icon }, index) => (
-            <Reveal key={title} delay={index * 0.06}>
+            <Reveal 
+              key={title} 
+              delay={index * 0.06}
+              className={index >= 3 ? "hidden md:block" : ""}
+            >
               <article className="h-full rounded-2xl border border-ink-300 bg-ink-50 p-7 shadow-soft transition duration-300 hover:-translate-y-2 hover:border-ink-800 hover:shadow-strong">
                 <div className="mb-7 grid h-12 w-12 place-items-center rounded-2xl bg-ink-1000 text-ink-50">
                   <Icon aria-hidden="true" size={22} />

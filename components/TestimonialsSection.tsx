@@ -36,26 +36,30 @@ export default function TestimonialsSection() {
         </Reveal>
         <div className="mt-14 grid gap-5 lg:grid-cols-3">
           {testimonials.map((testimonial, index) => (
-            <Reveal key={testimonial.author} delay={index * 0.08}>
+            <Reveal 
+              key={testimonial.author} 
+              delay={index * 0.08}
+              className={index >= 2 ? "hidden lg:block" : ""}
+            >
               <article className="h-full rounded-2xl border border-ink-300 bg-ink-50 p-7 shadow-soft transition duration-300 hover:-translate-y-2 hover:shadow-strong">
-                <div className="mb-6 flex gap-1 text-ink-1000" aria-label="5 out of 5 rating">
+                <div className="mb-6 flex gap-1 text-white" aria-label="5 out of 5 rating">
                   {Array.from({ length: 5 }).map((_, starIndex) => (
                     <Star key={starIndex} size={18} fill="currentColor" aria-hidden="true" />
                   ))}
                 </div>
-                <blockquote className="text-lg font-semibold leading-8 text-ink-1000">
+                <blockquote className="text-lg font-semibold leading-8 text-white">
                   &quot;{testimonial.quote}&quot;
                 </blockquote>
                 <div className="mt-8 flex items-center gap-4">
-                  <div className="grid h-12 w-12 place-items-center rounded-full bg-ink-1000 text-sm font-bold text-ink-50">
+                  <div className="grid h-12 w-12 place-items-center rounded-full bg-white text-sm font-bold text-black">
                     {testimonial.author
                       .split(" ")
                       .map((part) => part[0])
                       .join("")}
                   </div>
                   <div>
-                    <p className="font-bold text-ink-1000">{testimonial.author}</p>
-                    <p className="text-sm font-semibold text-ink-700">{testimonial.title}</p>
+                    <p className="font-bold text-white">{testimonial.author}</p>
+                    <p className="text-sm font-semibold text-zinc-400">{testimonial.title}</p>
                   </div>
                 </div>
               </article>
