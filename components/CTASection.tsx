@@ -63,7 +63,7 @@ export default function CTASection() {
                     <CheckCircle2 size={32} />
                   </div>
                   <h3 className="text-2xl font-bold text-white">Request Received!</h3>
-                  <p className="mt-2 text-zinc-400">We'll be in touch with you shortly.</p>
+                  <p className="mt-2 text-zinc-400">We&apos;ll be in touch with you shortly.</p>
                   <button onClick={() => setStatus("idle")} className="mt-6 text-sm font-bold text-zinc-300 hover:text-white underline">
                     Submit another request
                   </button>
